@@ -625,13 +625,33 @@ font-family: Arial, Helvetica, sans-serif;
         scale: 1.2;
         background-size: cover;
     }
-    #page2 .ele .dets {
+    #page2 .ele #dets1 {
         height: 20px;
         border-radius: 50px;
         width: 50%;
         position: absolute;
         z-index: 9;
-       
+       margin-top: 90px;
+        background-color: rgb(229, 156, 186);
+    
+    }
+    #page2 .ele #dets2 {
+        height: 20px;
+        border-radius: 50px;
+        width: 50%;
+        position: absolute;
+        z-index: 9;
+       margin-top: 90px;
+        background-color: rgb(229, 156, 186);
+    
+    }
+    #page2 .ele #dets3 {
+        height: 20px;
+        border-radius: 50px;
+        width: 50%;
+        position: absolute;
+        z-index: 9;
+       margin-top: 90px;
         background-color: rgb(229, 156, 186);
     
     }
@@ -809,7 +829,7 @@ font-family: Arial, Helvetica, sans-serif;
              #para{
                     height: 200px;
                     width: 350px;
-                    margin-top: 70px;
+                    margin-top: 90px;
                     margin-left: 50px;
                     position: relative;
                 }
@@ -822,6 +842,7 @@ font-family: Arial, Helvetica, sans-serif;
                     letter-spacing: 0px;
                     line-height: 0px;
                     text-align: center;
+                    margin-left: -50px;
                  }  
                     #feedback{
                         display:relative;
@@ -834,7 +855,7 @@ font-family: Arial, Helvetica, sans-serif;
                     }  
                     #feedback #message1{
                         height: 50px;
-                        width: 300px;
+                        width: 250px;
                         background-color: black;
                         border-radius: 50px;
                         color: white;
@@ -843,11 +864,12 @@ font-family: Arial, Helvetica, sans-serif;
                     padding-top: 15px;
                     font-weight: bold;
                     font-size: small;
+                    margin-top: 1px;
                     }
                     #feedback #message2{
                         margin-top: 30px;
                     height: 50px;
-                    width: 270px;
+                    width: 250px;
                     text-align: center;
                     font-family: Arial, Helvetica, sans-serif;
                     
